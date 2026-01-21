@@ -1,7 +1,7 @@
 class Runa < Formula
   desc "Fast and lightweight terminal file browser written in Rust"
   homepage "https://github.com/alexm-dev/runa"
-  version "0.5.5"
+  version "0.5.6"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
