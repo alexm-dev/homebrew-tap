@@ -4,6 +4,10 @@ class Runa < Formula
   version "0.5.13"
   license any_of: ["MIT", "Apache-2.0"]
 
+  def pour_bottle?
+    true
+  end
+
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-macos-aarch64.tar.gz"
