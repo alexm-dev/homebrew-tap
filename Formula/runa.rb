@@ -7,20 +7,20 @@ class Runa < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-macos-aarch64.tar.gz"
-      sha256 "479de8faf054f3a2690d38d1868330a1ae9f19cb37b321d5cabba0d9738193c9"
+      sha256 "f8d25e80e17ee683c242c18576908a2cacc270f4cfee68319542e078d8cb6bd6"
     else
       url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-macos-x86_64.tar.gz"
-      sha256 "14e72a0644eb74e351f833480fb762188d5dd71bf6fc48e586dea1d54b88cf8a"
+      sha256 "bf195b494365a8249f9bdaa7191ed2f078294b291fd7aa440cbdc14c5b4d504d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-linux-aarch64.tar.gz"
-      sha256 "606f859fc9eab3585121966d4c7cb89eb8ae4613c61ba1e2b5659a8486755262"
+      sha256 "104f8fb7e3fbda5b20d05564deddfdcc68d4d5a47cb0617c968f9ce09f0c8fe1"
     else
       url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-linux-x86_64.tar.gz"
-      sha256 "f89f7b57a8c4422f54f83ac59e6b12d660135cc73c1bc41cfd9bf6d5d2528d01"
+      sha256 "bb88756a713ba63beb537537e7d39f14bc243c4982381c2b0ce3f635c1f24ee9"
     end
   end
 
