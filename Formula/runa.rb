@@ -16,10 +16,10 @@ class Runa < Formula
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-linux-aarch64.tar.gz"
+      url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-linux-aarch64-gnu.tar.gz"
       sha256 "b1f2602d8b0a9628167b609e108e5d1557b85297a50935cadbf7b3e508653141"
     else
-      url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-linux-x86_64.tar.gz"
+      url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-linux-x86_64-gnu.tar.gz"
       sha256 "8876f5682e9d3ffa0e984c140940d2661102e0b6f6ab4abfdefbb8fcaf80ed82"
     end
   end
