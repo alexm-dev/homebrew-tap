@@ -1,26 +1,26 @@
 class Runa < Formula
   desc "Fast and lightweight terminal file browser written in Rust"
   homepage "https://github.com/alexm-dev/runa"
-  version "0.10.0"
+  version "0.10.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-macos-aarch64.tar.gz"
-      sha256 "b32dd9a523f2b5fcf5e859ab54f9d8c5fa6736d4cf0cb77481aefc3842e4c2ae"
+      sha256 "12fb088324e523eec4d69e2e9dedc015b519ac69fc3c23335bf01b59e7f54f0e"
     else
       url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-macos-x86_64.tar.gz"
-      sha256 "46f1768454ec4afbcfae4eda4f2600a61868e61d82a4734450e8aee64d041302"
+      sha256 "a691a88df67b87f0c748f6e8f9459c7b44f7a4fa9b3cdfece6d8400498a08e6e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-linux-aarch64-gnu.tar.gz"
-      sha256 "dc1587d61bab518de9787016cbde4fc1a5ffb03a1a85ec7fad34b1ddc824b7f4"
+      sha256 "e5efd984a3e1a3d7702ab75bb4b0b43bcb9395e2a518fbcfd084908f13c9ed1e"
     else
       url "https://github.com/alexm-dev/runa/releases/download/v#{version}/runa-linux-x86_64-gnu.tar.gz"
-      sha256 "5cee7f382153b125e5cd447c8b81b5d08c0509cd5ac6bf756581da6831a40657"
+      sha256 "8cb82c839f798765ef4601d7ba5cff6bf5876f6cba8e050c1474652d048a731a"
     end
   end
 
