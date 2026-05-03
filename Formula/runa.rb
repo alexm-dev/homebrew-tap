@@ -32,10 +32,10 @@ class Runa < Formula
     doc.install "README.md" if File.exist? "README.md"
 
     if File.directory? "docs/config"
-      doc.install "docs/config/configuration.md" if File.exist? "docs/config/configuration.md"
+      doc.install "docs/configuration.md" if File.exist? "docs/configuration.md"
 
-      if File.directory? "docs/config/config-reference"
-        doc.install "docs/config/config-reference"
+      if File.directory? "docs/config-reference"
+        doc.install "docs/config-reference"
       end
     end
   end
