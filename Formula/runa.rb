@@ -41,7 +41,7 @@ class Runa < Formula
   end
 
   test do
-    assert_match "Usage", shell_output("#{bin}/rn --help")
+    assert_match "USAGE", shell_output("#{bin}/rn --help")
     assert_match version.to_s, shell_output("#{bin}/rn --version")
   end
 end
