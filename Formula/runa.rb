@@ -30,14 +30,8 @@ class Runa < Formula
     doc.install "LICENSE-MIT" if File.exist? "LICENSE-MIT"
     doc.install "LICENSE-APACHE" if File.exist? "LICENSE-APACHE"
     doc.install "README.md" if File.exist? "README.md"
-
-    if File.directory? "docs/config"
-      doc.install "docs/configuration.md" if File.exist? "docs/configuration.md"
-
-      if File.directory? "docs/config-reference"
-        doc.install "docs/config-reference"
-      end
-    end
+    doc.install "docs/configuration.md" if File.exist? "docs/configuration.md"
+    doc.install "docs/config-reference" if File.directory? "docs/config-reference"
   end
 
   test do
