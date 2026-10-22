@@ -1,5 +1,5 @@
 class Runa < Formula
-  desc "Fast and lightweight terminal file browser written in Rust"
+  desc "Fast and lightweight terminal file manager written in Rust"
   homepage "https://github.com/alexm-dev/runa"
   version "0.14.0"
   license any_of: ["MIT", "Apache-2.0"]
