@@ -1,8 +1,8 @@
-# alexm-dev/homebrew tap
+# runa-fm/homebrew tap
 
 **Homebrew tap** for `runa`
 
-This is the offical Homebrew tap for installing [runa](https://github.com/alexm-dev/runa)
+This is the offical Homebrew tap for installing [runa](https://github.com/runa-fm/runa)
 
 ## Installation
 
@@ -11,7 +11,7 @@ Make sure you have [Homebrew](https://brew.sh/) installed.
 ### 1. Add this tap
 
 ```sh
-brew tap alexm-dev/homebrew-tap
+brew tap runa-fm/homebrew-tap
 ```
 
 ### 2. Install `runa`
@@ -20,7 +20,7 @@ brew tap alexm-dev/homebrew-tap
 brew install runa
 ```
 
-If you have not installed the tap yet, `brew install alexm-dev/tap/runa` will also work
+If you have not installed the tap yet, `brew install runa-fm/tap/runa` will also work
 
 
 ## License
